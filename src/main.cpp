@@ -5,6 +5,7 @@ int led = 13;
 
 void setup() {
   pinMode(led, OUTPUT);
+  Serial.begin(9600);
 }
 
 void loop() {
@@ -12,4 +13,6 @@ void loop() {
   delay(1000);
   digitalWrite(led, HIGH);
   delay(1000);
+
+  Serial.println("Hola");
 }
