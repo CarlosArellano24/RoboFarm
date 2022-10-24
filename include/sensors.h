@@ -3,6 +3,6 @@
 #include <DHT.H>
 
 namespace sensors {
-  const uint8_t dhtPin = 3;
+  const uint8_t dhtPin = 2;
   DHT dht(dhtPin, DHT11);
 }
